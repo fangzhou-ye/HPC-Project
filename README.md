@@ -2,7 +2,7 @@
 This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 Sorbonne University. Consisting of parallelizing a sparse matrix multiplication system **A\*x = y** with conjugate gradient method. The algorithm was derived from [Wiki page](https://en.wikipedia.org/wiki/Conjugate_gradient_method)
 
 # Project structure
-* **cg_seq ** 
+* **cg_seq:** 
 containing the provided code of sequential solution
 
 * **cg_mpi:**
