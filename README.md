@@ -11,5 +11,8 @@ optimized by MPI
 * **cg_hybrid:**
 optimized by MPI+OpenMP
 
+* **ToDo**:
+Vectorization
+
 # How to run and test
 In each repository, using **make** command to compile the program. Testing matrix to be downloaded somewhere and correct the *command_line* variable in **runner.py** to fit the path to the testing matrix. Run **python runner.py** command to generate a receipt file and run **python check_receipt.py [receipt_file]** to check the solution and the preformance.
