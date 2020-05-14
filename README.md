@@ -1,5 +1,5 @@
 # HPC_project
-This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 Sorbonne University. Consisting of parallelizing a sparse matrix multiplication system **A\*x = y** with conjugate gradient method. The algorithm was derived from [Wiki page](https://en.wikipedia.org/wiki/Conjugate_gradient_method)
+This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 Sorbonne University. Consisting of parallelizing a sparse matrix multiplication system **A\*x = y** with conjugate gradient method. The algorithm was derived from [Wiki page](https://en.wikipedia.org/wiki/Conjugate_gradient_method). Testing matrix are available in https://hpc.fil.cool/matrix/
 
 # Project structure
 * **cg_seq:** 
@@ -12,5 +12,4 @@ optimized by MPI
 optimized by MPI+OpenMP
 
 # How to run and test
-In each repository, using **make** command to compile the program. Testing matrix to be downloaded somewhere and correct the *command_line* variable in **runner.py** to fit the path to the testing matrix. Run \textmd{python runner.py}
-Available matrix in https://hpc.fil.cool/matrix/
+In each repository, using **make** command to compile the program. Testing matrix to be downloaded somewhere and correct the *command_line* variable in **runner.py** to fit the path to the testing matrix. Run **python runner.py** command to generate a receipt file and run **python check_receipt.py [receipt_file]** to check the solution and the preformance.
