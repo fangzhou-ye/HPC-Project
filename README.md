@@ -12,5 +12,5 @@ optimized by MPI
 optimized by MPI+OpenMP
 
 # How to run and test
-In each repository, using "make" command to compile the program. Testing matrix to be downloaded into somewhere and correct the "command_line" variable in runner.py to fit the path to the testing matrix. run \textmd{python runner.py}
+In each repository, using **make** command to compile the program. Testing matrix to be downloaded somewhere and correct the *command_line* variable in **runner.py** to fit the path to the testing matrix. Run \textmd{python runner.py}
 Available matrix in https://hpc.fil.cool/matrix/
