@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "matrix.h"
-
+ 
 void display_double_array(double *arr, int n){
     for(int i=0; i<n; i++){
         printf("%f ", arr[i]);
