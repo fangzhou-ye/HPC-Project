@@ -21,6 +21,7 @@
  *      # downloading and uncompressing the matrix on the fly
  *	$ curl --silent https://hpc.fil.cool/matrix/bcsstk13.mtx.gz | zcat | ./cg
  */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <err.h>
