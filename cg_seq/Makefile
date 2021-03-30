@@ -14,3 +14,4 @@ cg.o : cg.c mmio.h
 .PHONY: clean
 clean :
 	rm -rf *.o cg
+ 
