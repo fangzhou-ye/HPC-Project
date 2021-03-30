@@ -6,7 +6,7 @@ import sys
 import os
 from hashlib import sha256
 import base64
-
+ 
 #################################################################
 
 # Paramètres du système (ne pas modifier)
