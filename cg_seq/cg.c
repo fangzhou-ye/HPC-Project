@@ -1,13 +1,5 @@
 /* 
  * Sequential implementation of the Conjugate Gradient Method.
- *
- * Authors : Lilia Ziane Khodja & Charles Bouillaguet
- *
- * v1.02 (2020-04-3)
- *
- * CHANGE LOG:
- *    v1.01 : fix a minor printing bug in load_mm (incorrect CSR matrix size)
- *    v1.02 : use https instead of http in "PRO-TIP"
  *  
  * USAGE: 
  * 	$ ./cg --matrix bcsstk13.mtx                # loading matrix from file
