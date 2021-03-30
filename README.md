@@ -3,7 +3,7 @@ This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 S
 
 # Project structure
 * **cg_seq:** 
-containing the provided code of sequential solution
+containing the sequential solution
 
 * **cg_mpi:**
 optimized by MPI
