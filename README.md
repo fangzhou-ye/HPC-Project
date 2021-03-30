@@ -1,5 +1,5 @@
 # HPC Project
-This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 Sorbonne University. Consisting of parallelizing a sparse matrix multiplication system **A\*x = y** with conjugate gradient method. The algorithm was derived from [Wiki page](https://en.wikipedia.org/wiki/Conjugate_gradient_method). Testing matrix are available in https://hpc.fil.cool/matrix/
+This is the course project of [HPC](https://cbouilla.github.io/HPC.html) at M1 Sorbonne University. Consisting of resolve a sparse matrix multiplication system **A\*x = y** with conjugate gradient method. The algorithm was derived from [Wiki page](https://en.wikipedia.org/wiki/Conjugate_gradient_method) and be parallelizef with MPI and Open MP derivatives. Testing matrix are available in https://hpc.fil.cool/matrix/
 
 # Project structure
 * **cg_seq:** 
