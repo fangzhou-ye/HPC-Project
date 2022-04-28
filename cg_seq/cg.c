@@ -1,25 +1,8 @@
 /* 
  * Sequential implementation of the Conjugate Gradient Method.
- *
- * Authors : Lilia Ziane Khodja & Charles Bouillaguet
- *
- * v1.02 (2020-04-3)
- *
- * CHANGE LOG:
- *    v1.01 : fix a minor printing bug in load_mm (incorrect CSR matrix size)
- *    v1.02 : use https instead of http in "PRO-TIP"
- *  
  * USAGE: 
  * 	$ ./cg --matrix bcsstk13.mtx                # loading matrix from file
  *      $ ./cg --matrix bcsstk13.mtx > /dev/null    # ignoring solution
- *	$ ./cg < bcsstk13.mtx > /dev/null           # loading matrix from stdin
- *      $  zcat matrix.mtx.gz | ./cg                # loading gziped matrix from
- *      $ ./cg --matrix bcsstk13.mtx --seed 42      # changing right-hand side
- *      $ ./cg --no-check < bcsstk13.mtx            # no safety check
- *
- * PRO-TIP :
- *      # downloading and uncompressing the matrix on the fly
- *	$ curl --silent https://hpc.fil.cool/matrix/bcsstk13.mtx.gz | zcat | ./cg
  */
 
 #include <stdio.h>
